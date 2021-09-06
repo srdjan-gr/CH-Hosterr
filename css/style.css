@@ -297,13 +297,60 @@ footer {
         margin-top: 1em;
         margin-left: 5em;
     }
-    
-footer {
-    top: 10vh;
+
+    footer {
+        top: 10vh;
+    }
+
+    .socials ul {
+        margin-bottom: 2em;
+    }
+
 }
 
-.socials ul {
- margin-bottom: 2em;
-}
+@media only screen and (max-width:600px) {
+
+    .mainimg img {
+        width: 13em;
+    }
+
+    .main {
+        height: 70vh;
+    }
+
+    .main .left .txt h1 {
+        margin-top: 0;
+        margin-bottom: 0.3em;
+        font-size: 2em;
+        line-height: 1.4em;
+        width: 95%;
+    }
+
+    .main .left .txt p {
+        font-size: 0.9em;
+        line-height: 1.4em;
+    }
+
+    .btnblue {
+        width: 100%;
+    }
+
+    .mail input {
+        width: 100%;
+        margin-right: 0em;
+        margin-bottom: 1em;
+    }
+
+    .main {
+        height: 95vh;
+    }
+
+    footer {
+        top: 2vh;
+    }
+    
+    .help {
+        margin-bottom: 1em;
+    }
 
 }
